@@ -15,7 +15,6 @@
 		D34464531712363800255FA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34464521712363800255FA3 /* UIKit.framework */; };
 		D34464551712363800255FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34464541712363800255FA3 /* Foundation.framework */; };
 		D34464571712363800255FA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34464561712363800255FA3 /* CoreGraphics.framework */; };
-		D34464591712363800255FA3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34464581712363800255FA3 /* GameKit.framework */; };
 		D344645D1712363800255FA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D344645C1712363800255FA3 /* Default.png */; };
 		D344645F1712363800255FA3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D344645E1712363800255FA3 /* Default@2x.png */; };
 		D34464611712363800255FA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D34464601712363800255FA3 /* Default-568h@2x.png */; };
@@ -180,7 +179,6 @@
 		D34464521712363800255FA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D34464541712363800255FA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D34464561712363800255FA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D34464581712363800255FA3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		D344645C1712363800255FA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		D344645E1712363800255FA3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		D34464601712363800255FA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -496,7 +494,6 @@
 				D34464531712363800255FA3 /* UIKit.framework in Frameworks */,
 				D34464551712363800255FA3 /* Foundation.framework in Frameworks */,
 				D34464571712363800255FA3 /* CoreGraphics.framework in Frameworks */,
-				D34464591712363800255FA3 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +528,6 @@
 				D34464521712363800255FA3 /* UIKit.framework */,
 				D34464541712363800255FA3 /* Foundation.framework */,
 				D34464561712363800255FA3 /* CoreGraphics.framework */,
-				D34464581712363800255FA3 /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -991,6 +987,16 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Brian Broom";
+				TargetAttributes = {
+					D34464441712363800255FA3 = {
+						DevelopmentTeam = JQNK74493B;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = D34464401712363800255FA3 /* Build configuration list for PBXProject "TowerDefenseUpdate" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1228,12 +1234,13 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TowerDefenseUpdate/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"TowerDefenseUpdate/libs/kazmath/include\"";
 				INFOPLIST_FILE = TowerDefenseUpdate/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1250,11 +1257,12 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TowerDefenseUpdate/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"TowerDefenseUpdate/libs/kazmath/include\"";
 				INFOPLIST_FILE = TowerDefenseUpdate/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
