@@ -77,12 +77,12 @@
         paper.position = ccp(size.width / 2, size.height / 2);
         [self addChild:paper];
 
-        CCLabelTTF *title = [CCLabelTTF labelWithString:@"Academic Project" fontName:@"Marker Felt" fontSize:fontSize * 2];
+        CCLabelTTF *title = [CCLabelTTF labelWithString:@"About Game" fontName:@"Marker Felt" fontSize:fontSize * 2];
         title.position = ccp(size.width / 2, size.height / 2 + fontSize * 2);
         title.color = ccBLACK;
         [self addChild:title];
 
-        CCLabelTTF *nguyen = [CCLabelTTF labelWithString:@"Copyright (c) 2014 Nguyen Hoang Anh Nguyen.\nAll rights reserved." fontName:@"Marker Felt" fontSize:fontSize];
+        CCLabelTTF *nguyen = [CCLabelTTF labelWithString:@"Copyright (c) 2016 TwoKingStudio.\nAll rights reserved." fontName:@"Marker Felt" fontSize:fontSize];
         nguyen.position = ccp(size.width / 2, size.height / 2 - fontSize / 2);
         nguyen.color = ccBLACK;
         [self addChild:nguyen];
