@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		977E315D1DFF888B0022FD0F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977E315C1DFF888B0022FD0F /* Media.xcassets */; };
 		CB01462718A3863600F903BB /* TargetComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01462618A3863600F903BB /* TargetComponent.m */; };
 		CB04DAB218C634F6009E53FD /* heroes.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB04DAA418C634F6009E53FD /* heroes.plist */; };
 		CB04DAB318C634F6009E53FD /* heroes.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = CB04DAA518C634F6009E53FD /* heroes.pvr.ccz */; };
@@ -287,6 +288,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		977E315C1DFF888B0022FD0F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		CB01462518A3863600F903BB /* TargetComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetComponent.h; sourceTree = "<group>"; };
 		CB01462618A3863600F903BB /* TargetComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetComponent.m; sourceTree = "<group>"; };
 		CB04DAA418C634F6009E53FD /* heroes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heroes.plist; sourceTree = "<group>"; };
@@ -785,6 +787,7 @@
 		CB24BFF6189E576B00BFD997 = {
 			isa = PBXGroup;
 			children = (
+				977E315C1DFF888B0022FD0F /* Media.xcassets */,
 				CB24C016189E576C00BFD997 /* Tower Defense */,
 				CB24C001189E576C00BFD997 /* Frameworks */,
 				CB24C000189E576C00BFD997 /* Products */,
@@ -1503,6 +1506,12 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Nguyen Hoang Anh Nguyen";
+				TargetAttributes = {
+					CB24BFFE189E576C00BFD997 = {
+						DevelopmentTeam = JQNK74493B;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = CB24BFFA189E576C00BFD997 /* Build configuration list for PBXProject "Tower Defense" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1581,6 +1590,7 @@
 				CBDA771B18CA5AAB00E1D991 /* map_12.png in Resources */,
 				CBEA486518CB3E9500F2ECFB /* effect-hd.plist in Resources */,
 				CBEA486618CB3E9500F2ECFB /* effect-hd.pvr.ccz in Resources */,
+				977E315D1DFF888B0022FD0F /* Media.xcassets in Resources */,
 				CBEA486718CB3E9500F2ECFB /* effect.plist in Resources */,
 				CBEA486818CB3E9500F2ECFB /* effect.pvr.ccz in Resources */,
 				CB4210BC18CBB13900C4856C /* worldmap-hd.plist in Resources */,
@@ -1869,19 +1879,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tower Defense/Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"Tower Defense/libs/kazmath/include\"";
 				INFOPLIST_FILE = "Tower Defense/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nekoloop.TowerDefense;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.angrybirdhappypig.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1892,18 +1905,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tower Defense/Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"Tower Defense/libs/kazmath/include\"";
 				INFOPLIST_FILE = "Tower Defense/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nekoloop.TowerDefense;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.angrybirdhappypig.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
