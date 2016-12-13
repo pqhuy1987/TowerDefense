@@ -38,7 +38,6 @@
 
         // thêm hình nền, nút start, about vào màn hình
         [self addChild:background];
-        //[self addChild: startgame];
         [self addChild:about];
         [self addChild:startgame];
         id moveStartgame, moveAbout;
