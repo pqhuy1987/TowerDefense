@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="23" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+  <tile id="29">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJy1kmsLwiAUhq1BMbpRqy/R3KLCiC7+/1/XCRTeDh4vg314wMl81AevSqnHCNyIC/Eh9ECsW885O/eEmBZQBfy4hwV3TeyJXQYHYhG5g3VjdPv/jUML33XErRPuWJ8qw60Ft4n08S2GuvmdsUfN3G/w3AvO/Rt30MEw9ynSDZHO3an/N+Hnt4FeEpLbCPOhDnMgp4k05l1XxAZYuj0kt+/ZJtzci4TeCe/ZEL3glrySu4e1OObudYE79a5acM8SPdCd+66ajM7ofhLHEXgRX/CoJIc=
+  </data>
+ </layer>
+ <objectgroup color="#ffac00" name="Objects" width="23" height="18">
+  <object name="Waypoint0" x="713" y="288"/>
+  <object name="Waypoint1" x="417" y="287"/>
+  <object name="Waypoint2" x="414" y="100"/>
+  <object name="Waypoint3" x="64" y="99"/>
+  <object name="Waypoint4" x="64" y="512"/>
+  <object name="Waypoint5" x="352" y="514"/>
+  <object name="Waypoint6" x="353" y="192"/>
+  <object name="Waypoint7" x="157" y="193"/>
+  <object name="Waypoint8" x="158" y="417"/>
+  <object name="Waypoint9" x="256" y="415"/>
+  <object name="Waypoint10" x="255" y="286"/>
+  <object name="Waypoint11" x="225" y="287"/>
+ </objectgroup>
+</map>
