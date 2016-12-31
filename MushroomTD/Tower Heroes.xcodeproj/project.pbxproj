@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		974948E11E18071E000EDDF4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974948E01E18071E000EDDF4 /* Media.xcassets */; };
 		FE06CFD01545B7ED00511B17 /* SoundEffects.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE06CFCF1545B7ED00511B17 /* SoundEffects.plist */; };
 		FE06D0731545EE7700511B17 /* PreLoadScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06D0721545EE7700511B17 /* PreLoadScene.m */; };
 		FE06D0761545EE8E00511B17 /* PreLoadLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06D0751545EE8E00511B17 /* PreLoadLayer.m */; };
@@ -337,6 +338,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		974948E01E18071E000EDDF4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		FE06CFCF1545B7ED00511B17 /* SoundEffects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SoundEffects.plist; sourceTree = "<group>"; };
 		FE06D0711545EE7700511B17 /* PreLoadScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreLoadScene.h; sourceTree = "<group>"; };
 		FE06D0721545EE7700511B17 /* PreLoadScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreLoadScene.m; sourceTree = "<group>"; };
@@ -1441,6 +1443,7 @@
 		FEF66E65151985750015D2C6 = {
 			isa = PBXGroup;
 			children = (
+				974948E01E18071E000EDDF4 /* Media.xcassets */,
 				FEF66E86151985750015D2C6 /* Tower Heroes */,
 				FEF66E73151985750015D2C6 /* Frameworks */,
 				FEF66E71151985750015D2C6 /* Products */,
@@ -2016,6 +2019,7 @@
 				FEAE515915638950009EE168 /* EnemyPinki.plist in Resources */,
 				FEAE515B1563896A009EE168 /* EnemyTarling.plist in Resources */,
 				FE72E93D1565122F001F314A /* MushroomTextSmall-hd.fnt in Resources */,
+				974948E11E18071E000EDDF4 /* Media.xcassets in Resources */,
 				FE72E93E1565122F001F314A /* MushroomTextSmall-hd.png in Resources */,
 				FE72E97B15654CAF001F314A /* CharacterDescription.plist in Resources */,
 				FEF4E860156649030006DBFF /* DescriptionLabel.plist in Resources */,
@@ -2325,6 +2329,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mark Kim (4XQWSY32FQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -2365,6 +2371,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mark Kim";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Mark Kim";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

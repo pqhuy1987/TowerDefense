@@ -71,7 +71,7 @@
     
     [FlurryAnalytics logEvent:@"facebook button pressed"];
     
-    NSURL *urlString = [NSURL URLWithString: @"http://www.facebook.com/TowerHeroes"];
+    NSURL *urlString = [NSURL URLWithString: @"http://www.facebook.com/"];
     
     [[UIApplication sharedApplication] openURL: urlString];
 }
