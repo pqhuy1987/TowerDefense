@@ -2351,7 +2351,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.mushroomTD.100;
 				PRODUCT_NAME = "Tower Heroes";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5FE08122-2DF2-4E78-A88E-BB5379782CA9";
@@ -2391,7 +2391,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.mushroomTD.100;
 				PRODUCT_NAME = "Tower Heroes";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=*]" = "67ABA32B-7D63-40C2-B6D8-79DF475D05A4";

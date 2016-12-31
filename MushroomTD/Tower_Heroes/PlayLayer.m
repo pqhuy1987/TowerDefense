@@ -14,7 +14,7 @@
 - (void) insertTitle {
     CGSize screenSize = [[CCDirector sharedDirector] winSize];
         
-    CCLabelBMFont *playTitle = [CCLabelBMFont labelWithString: @"Tower Heroes" 
+    CCLabelBMFont *playTitle = [CCLabelBMFont labelWithString: @"Mushroom Fire"
                                                       fntFile: @"MushroomText.fnt"];
     
     float offSetY = 35.0f;
