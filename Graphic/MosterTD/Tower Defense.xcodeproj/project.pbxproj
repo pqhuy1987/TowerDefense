@@ -1489,7 +1489,7 @@
 				ORGANIZATIONNAME = "Nguyen Hoang Anh Nguyen";
 				TargetAttributes = {
 					CB24BFFE189E576C00BFD997 = {
-						DevelopmentTeam = 7A3KSATNU7;
+						DevelopmentTeam = VC346ZAH77;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1843,7 +1843,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 7A3KSATNU7;
+				DEVELOPMENT_TEAM = VC346ZAH77;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tower Defense/Prefix.pch";
@@ -1854,7 +1854,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.media.td1.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graphic.td1.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1871,7 +1871,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 7A3KSATNU7;
+				DEVELOPMENT_TEAM = VC346ZAH77;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tower Defense/Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"Tower Defense/libs/kazmath/include\"";
@@ -1881,7 +1881,7 @@
 					"-lz",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.media.td1.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graphic.td1.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
